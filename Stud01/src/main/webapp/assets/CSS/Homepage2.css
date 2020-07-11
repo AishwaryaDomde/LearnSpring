@@ -1,0 +1,199 @@
+  body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .bodyRight {
+            margin-left: 30px;
+        }
+
+        .bodyRightClose {
+            margin-left: 30px;
+        }
+
+        .Rightsidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 40px;
+            right: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            -webkit-transition: width 4ms ease-in-out;
+            -moz-transition: width 4ms ease-in-out;
+            -ms-transition: width 4ms ease-in-out;
+            -o-transition: width 4ms ease-in-out;
+            transition: width 4ms ease-in-out;
+        }
+
+        .Rightsidenav a {
+            padding: 8px 8px 8px 8px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            -webkit-transition: width 4ms ease-in-out;
+            -moz-transition: width 4ms ease-in-out;
+            -ms-transition: width 4ms ease-in-out;
+            -o-transition: width 4ms ease-in-out;
+            transition: width 4ms ease-in-out;
+        }
+
+        .Rightsidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .Rightsidenavclose {
+
+            -webkit-transition: width 4ms ease-in-out;
+            -moz-transition: width 4ms ease-in-out;
+            -ms-transition: width 4ms ease-in-out;
+            -o-transition: width 4ms ease-in-out;
+            transition: width 4ms ease-in-out;
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            z-index: 1;
+            top: 40px;
+            right: 0;
+            background-color: #111;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .top-Right-toggleMenu {
+            margin-top: -8px;
+            left: -13px;
+        }
+
+        .navBarMiddle {
+            padding-bottom: 1px;
+            padding-top: 1px;
+            padding-left: 2px;
+            padding-right: 2px;
+            ;
+        }
+
+        .bg-teal {
+            background: teal;
+        }
+
+        @media screen and (max-height: 450px) {
+           
+            .Rightsidenav a {
+                font-size: 18px;
+            }
+        }
+
+        .bodyLeft {
+            margin-left: 250px;
+        }
+
+        .bodyLeftClose {
+            margin-left: 0px;
+        }
+
+        .Leftsidenav {
+            -webkit-transition: width 4ms ease-in-out;
+            -moz-transition: width 4ms ease-in-out;
+            -ms-transition: width 4ms ease-in-out;
+            -o-transition: width 4ms ease-in-out;
+            transition: width 4ms ease-in-out;
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            z-index: 1;
+            top: 40px;
+            left: 0;
+            background-color: #111;
+            color: white;
+            /* transition: 0.3s; */
+            padding-top: 4px;
+        }
+
+        .Leftsidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            -webkit-transition: width 4ms ease-in-out;
+            -moz-transition: width 4ms ease-in-out;
+            -ms-transition: width 4ms ease-in-out;
+            -o-transition: width 4ms ease-in-out;
+            transition: width 4ms ease-in-out;
+        }
+
+        .Leftsidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .Leftsidenavclose {
+
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 40px;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            -webkit-transition: width 4ms ease-in-out;
+            -moz-transition: width 4ms ease-in-out;
+            -ms-transition: width 4ms ease-in-out;
+            -o-transition: width 4ms ease-in-out;
+            transition: width 4ms ease-in-out;
+            padding-top: 4px;
+        }
+
+        .top-left-toggleMenu {
+            margin-top: -8px;
+            left: -13px;
+        }
+
+        .navBarMiddle {
+            padding-bottom: 1px;
+            padding-top: 1px;
+            padding-left: 2px;
+            padding-right: 2px;
+            ;
+        }
+
+        .bg-teal {
+            background: teal;
+        }
+        .bg-pink {
+            background: rgb(196, 8, 139);
+        }
+        .bg-yellow {
+            background: rgb(189, 170, 62);
+        }
+        .bg-orange {
+            background: rgb(248, 129, 49);
+        }
+
+        .toggleNav{
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border: none;
+            display: inline-block;
+            padding: 8px 16px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            vertical-align: middle;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            background-color: inherit;
+            text-align: center;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        @media screen and (max-height: 450px) {
+            .Leftsidenav {
+                padding-top: 15px;
+            }
+            .Leftsidenav a {
+                font-size: 18px;
+            }
+        }

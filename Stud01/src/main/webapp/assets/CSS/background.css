@@ -1,0 +1,156 @@
+.bg-shade1 {
+	background: #88d1d1;
+}
+
+.bg-shade2 {
+	background: #d3d3df
+}
+
+.bg-teal {
+	background: teal;
+}
+
+.bg-pink {
+	background: rgb(196, 8, 139);
+	color: white;
+}
+
+.bg-yellow {
+	background: rgb(93, 170, 206);
+}
+
+.bg-orange {
+	background: rgb(229, 167, 126);
+}
+
+.bg-tomato {
+	background: tomato;
+}
+
+.bg-dodgerblue {
+	background: dodgerblue;
+}
+
+.bg-slateblue {
+	background: slateblue
+}
+
+.bg-shade3 {
+	background: #0baed7
+}
+
+.bg-shade4 {
+	background: #81ce94
+}
+
+.bg-shade5 {
+	background: #ff815ec2
+}
+
+.bg-shade6 {
+	background: #3a81f1
+}
+
+.bg-shade7 {
+	background: #4b5153;
+	color: whitesmoke
+}
+
+.bg-shade8 {
+	background: #4373af;
+	color: whitesmoke
+}
+
+.bg-shade9 {
+	background: #090794bf;
+	color: white;
+}
+
+.bg-shade10 {
+	background: #4a9282;
+	color: rgb(31, 30, 30)
+}
+
+.bg-shade11 {
+	background: #514492;
+	color: whitesmoke
+}
+
+.bg-shade12 {
+	background: #659feb
+}
+
+.bg-shade13 {
+	background: white;
+	color: black;
+	border-bottom: 1px solid #dedede;
+	box-shadow: 0px 0px 17px 0px #afa0a0;
+}
+
+.bg-grad1 {
+	background: linear-gradient(to bottom, #626dd4, #5d3bb4);
+	color: floralwhite;
+}
+
+.bg-grad2 {
+	background: linear-gradient(to top, rgb(253, 149, 131) 10%,
+		rgba(247, 200, 194, 0.79) 100%);
+}
+
+.bg-grad3 {
+	background-image: linear-gradient(to top, #007e9e, #00b5ac);
+	color: floralwhite;
+}
+
+.bg-grad4 {
+	background-image: linear-gradient(to top, #f9a468, #ffdb77);
+}
+
+.bg-grad5 {
+	background-image: linear-gradient(to top, #ff9b00, #debc9b);
+}
+
+.bg-grad6 {
+	background-image: linear-gradient(to top, #ff815e, #fe8d6e, #fc9a7e, #faa58e, #f6b19e);
+	color: #523c1f;
+}
+
+.bg-grad7 {
+	background-image: linear-gradient(to top, #0089fd, #00affe, #38d1f7, #9eeef6);
+}
+
+.bg-grad8 {
+	background-image: linear-gradient(to top, #448eff, #6481ff, #8770ff);
+	color: whitesmoke
+}
+
+.bg-grad9 {
+	background-image: linear-gradient(to bottom, #d283d4, #e56eb6);
+	color: whitesmoke
+}
+
+.bg-grad10 {
+	background-image: linear-gradient(to bottom, #64e7cf, #62bb81);
+}
+/************************************************************/
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888080;
+	border-radius: 9px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #a09a9a;
+}
